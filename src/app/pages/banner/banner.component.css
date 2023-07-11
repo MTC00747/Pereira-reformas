@@ -1,0 +1,54 @@
+.container-banner {
+    height: 700px;
+     width: 100%;
+     
+     
+   }
+
+.image {
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 90%;
+    height: 600px;  
+    object-fit: cover;
+    
+}
+
+button {
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 10px;
+    border:1px solid white;
+}
+button > a{
+    text-decoration: none;
+    color:white;
+    font-family:'codec'
+}
+@media (min-width: 200px) and (max-width:480px) {
+    .container-banner {
+        height: 400px;
+        width: 100%;
+
+    }
+
+    .image {
+        margin-left: 0;
+        width: 100%;
+        height: 400px;
+          
+        object-fit:none;
+    }
+
+    button {
+        padding: 5px;
+        background-color: transparent;
+        border-radius: 10px;
+        border:1px solid white;
+    }
+    button > a{
+        text-decoration: none;
+        color:white;
+        font-family:'codec'
+    }
+}
